@@ -1,4 +1,4 @@
-//import java.text.SimpleDateFormat;
+
 import java.util.*;
 
 class Member {
@@ -66,14 +66,10 @@ class Member {
                             this.MemberID, this.LastName, this.FirstName, this.Handicap, this.Gender, 
                             this.Team, this.MemberType, this.Coach, this.Phone, 
                             this.JoinDate.getDay(), this.JoinDate.getMonth(), this.JoinDate.getYear());
-//        System.out.print("|------------|--------------|-------------|----------|--------|--------|-------------|-------|--------------|--------------|");
+
     }
 
 }
-
-
-//for task 1
-
 
 class Date {
     private int day;
@@ -171,7 +167,7 @@ public class Q01 {
         System.out.println("+------------+--------------+-------------+----------+--------+----------+-------------+-------+--------------+-----------------------+");
         System.out.println("| Member ID  | Last Name    | First Name  | Handicap | Gender |   Team   | Member Type | Coach |    Phone     |       Join Date       |");
         System.out.println("+------------+--------------+-------------+----------+--------+----------+-------------+-------+--------------+-----------------------+");
-//        SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy");
+
         Date apr07_09 = new Date(07, " Apr ", 2009);
         
         for (Member member : members) {
@@ -179,7 +175,7 @@ public class Q01 {
                 member.display();
             }
         }
-        
+      //Task 2 
      // Display details of senior members whose handicap score is less than 12
         System.out.println("task 2");
         System.out.println("+------------+--------------+-------------+----------+--------+----------+-------------+-------+--------------+-----------------------+");
@@ -190,7 +186,7 @@ public class Q01 {
                 member.display();
             }
         }
-        
+      // Task 3  
      // Display details of female senior members who are part of TeamB
         System.out.println("task3");
         System.out.println("+------------+--------------+-------------+----------+--------+----------+-------------+-------+--------------+-----------------------+");
